@@ -81,7 +81,7 @@
         <button class="btn btn-success" type="submit">Tambah Data +</button><br>
       </div>
       <div class="row">      
-        <a href="index.php" class="btn btn-danger">Kembali</a>
+        <a href="index.html" class="btn btn-danger">Kembali</a>
       </div>
     </form>
     

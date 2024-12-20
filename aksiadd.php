@@ -11,7 +11,7 @@ $tanggal_masuk = $_POST['tanggal_masuk'];
 $sql = "INSERT INTO tabel_barang (nama, kategori, jumlah, harga, tanggal_masuk) VALUES ('$nama', '$kategori', '$jumlah', '$harga', '$tanggal_masuk')";
 if(mysqli_query($koneksi, $sql)) {
 	echo "Barang berhasil ditambahkan";	
-	header("location:index.php?pesan=berhasil_tambah_barang");
+	header("location:index.html");
 }
 else 
 {
