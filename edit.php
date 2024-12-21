@@ -121,7 +121,7 @@ if(isset($_POST["TblUpdate"])) {
 			harga='$harga', tanggal_masuk='$tanggal_masuk' WHERE nama='$nama'";
 
 	if (mysqli_query($koneksi, $sql)) {
-		header("location:index.html");
+		header("location:index.php");
 	} else {
 		echo "Error updating record: " . mysqli_error($koneksi);
 	}
